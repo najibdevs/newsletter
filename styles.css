@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    background: hsl(233, 47%, 7%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.main-card {
+    background: white;
+    max-width: 800px;
+    display: flex;
+    margin: 0 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.image-container img {
+    width: 310px;
+}
+
+.card {
+    padding: 3rem;
+}
+
+.details h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.details p {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+.list-item {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;  
+    gap: 10px; 
+}
+
+
+.list-item li {
+    list-style-type: none; 
+}
+
+
+.newsletter h3 {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.newsletter input {
+    border: 1px solid black;
+    width: 80%;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.btn {
+    background: orange;
+    border: none;
+    padding: 14px 20px;
+    width: 80%;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
