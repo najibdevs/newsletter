@@ -1,62 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
-    <title>
-      Frontend Mentor | Newsletter sign-up form with success message
-    </title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
-  </head>
-  <body>
-    <body>
-      <div class="main-card">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-card">
         <div class="card">
-          <div class="details">
-            <h1>Stay updated!</h1>        
-            <p>Join 60,000+ product managers receiving monthly updates on:</p>
-          </div>
+            <div class="details">
+                <h1>Stay updated!</h1>        
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+            </div>
 
-          <div class="description">
-            <div class="list-item">
-              <img src="assets/images/icon-list.svg" alt="Icon" class="icon">
-              <li>Product discovery and building what matters</li>
-          </div>
-          <div class="list-item">
-              <img src="assets/images/icon-list.svg" alt="Icon" class="icon">
-              <li>Measuring to ensure updates are a success</li>
-          </div>
-          <div class="list-item">
-              <img src="assets/images/icon-list.svg" alt="Icon" class="icon">
-              <li>And much more!</li>
-          </div>
-          </div>
-          
-          <div class="newsletter">
-            <h3>Email address</h3>
-            <input type="text" placeholder="email@company.com">
-            <button class="btn">Subscribe to monthly newsletter</button>
-          </div>
+            <ul class="description">
+                <li class="list-item">
+                    <img src="assets/images/icon-list.svg" alt="Product discovery icon" class="icon">
+                    Product discovery and building what matters
+                </li>
+                <li class="list-item">
+                    <img src="assets/images/icon-list.svg" alt="Success measurement icon" class="icon">
+                    Measuring to ensure updates are a success
+                </li>
+                <li class="list-item">
+                    <img src="assets/images/icon-list.svg" alt="More information icon" class="icon">
+                    And much more!
+                </li>
+            </ul>
+            
+            <div class="newsletter">
+                <h3>Email address</h3>
+                <input type="email" id="email" placeholder="email@company.com" class="input-field">
+                <button class="btn" id="emailbtn">Subscribe to monthly newsletter</button>
+            </div>
         </div>
 
-          <div class="image-container">
-            <img src="assets/images/illustration-sign-up-desktop.svg" alt="">
-          </div>
-          </div>
-  </body>
+        <div class="image-container">
+            <img src="assets/images/illustration-sign-up-desktop.svg" alt="Sign up illustration">
+        </div>
+    </div>
+    <div class="thank-you hidden">
+        <img src="assets/images/icon-success.svg" alt="Success">
+        <h1>Thank for subscribing!</h1>
+        <p>A confirmation has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription.</p>
+        <button class="thank-btn">Dismiss message</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
