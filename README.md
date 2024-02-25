@@ -1,6 +1,6 @@
 # Newsletter Sign-up Form
 
-This project is a responsive Newsletter Sign-up Form, designed and built as part of the Frontend Mentor challenges. It features a modern, user-friendly interface for users to subscribe to a newsletter, and displays a success message upon successful submission.
+- This project is a responsive Newsletter Sign-up Form, designed and built as part of the Frontend Mentor challenges. It features a modern, user-friendly interface for users to subscribe to a newsletter, and displays a success message upon successful submission.
 
 ## Overview
 
@@ -13,8 +13,7 @@ Users should be able to:
 
 ### Live Demo
 
-- Solution URL: [Add Solution URL here](#)
-- Live Site URL: [Add Live Site URL here](#)
+- Live Site URL: [Add Live Site URL here](https://newsletter-mauve-phi.vercel.app/)
 
 ## My Process
 
@@ -33,14 +32,14 @@ Users should be able to:
 - Learnt how to turn objects into arrays using the "Objects.value" method
 
 ### What I Could Improve On
-- By writing clean code
-- By improving my speed on the project
-- Need to do alot more practice
-- Have a student mindset
-- Embrace failure/hardships
+- Focusing on writing clear and organized code.
+- Working on increasing my efficiency in project tasks.
+- Recognizing the importance of extensive practice.
+- Maintaining a learner's attitude throughout the process.
+- Accepting challenges and setbacks as part of the journey.
 
 ## Contributing
 
-Contributions are welcome! Report bugs or suggest improvements by opening an issue or submitting a PR.
+- Contributions are welcome! Report bugs or suggest improvements by opening an issue or submitting a PR.
 
 
