@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Live Demo
 
-- Live Site URL: [Add Live Site URL here](https://newsletter-mauve-phi.vercel.app/)
+- Live Site URL: [newsletter sign-up form](https://newsletter-mauve-phi.vercel.app/)
 
 ## My Process
 
