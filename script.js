@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const email = emailInput.value;
         if (validateEmail(email)) {
             toggleVisibility(true);
-            sections.thankYou.querySelector('p').textContent = `A confirmation has been sent to ${email}. Please open it and click the button inside to confirm your subscription.`;
+            sections.thankYou.querySelector('p').innerHTML = `A confirmation has been sent to <strong>${email}</strong>. Please open it and click the button inside to confirm your subscription.`;
         } else {
             alert("Please enter a valid email address.");
         }
@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     dismissBtn.addEventListener("click", function() {
         toggleVisibility(false);
-        emailInput.value = ''; // Clear the input field
     });
 });
 
